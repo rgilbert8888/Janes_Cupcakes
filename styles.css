@@ -1,0 +1,125 @@
+body{
+	width:90%;
+	margin:0 auto;
+	font-family:'Special Elite', cursive;
+	min-width: 700px;
+}
+
+#top_logo{
+	display: inline;
+	float: left;
+}
+
+#header img {
+	height: 4em;
+}
+
+input{
+	margin: 3.5% .5%;
+	font-family: 'Special Elite', cursive;
+	font-size: 12px;
+	padding: 4px;
+	width: 140px;
+	border: 3px inset;
+	float: left;
+	font-family:'Special Elite', cursive;
+}
+input[type="submit"] {
+	padding:5px 15px; 
+	background:#ccc; 
+	border:0 none;
+	border-radius: 5px;
+	width: 68px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+ }
+
+#header {
+	text-align: center;
+}
+
+h1{
+	clear:both;
+	font-size: 3em;
+	padding-top: 12%;
+}
+
+#header p{
+	margin: 5%;
+	font-size: 1.5em;
+}
+
+#content{
+	overflow: auto;
+}
+
+#nav, #feature, #footer, #footer p{
+	margin: 1%;
+}
+
+#nav ul{
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	text-align: center;
+}
+
+#nav a{
+	margin:1.5em;
+	text-decoration: none;
+	color: black;
+}
+#nav a:hover{
+	color:blue;
+}
+
+li{
+	display:inline;
+	padding: 0.5em;
+}
+
+#feature{
+	min-width: 550px;
+}
+
+#feature img{
+	float: right;
+}
+
+#feature p{
+	float:left;
+	font-size: 3em;/*
+	padding-left: 1%;*/
+}
+
+.columns{
+	clear:both;
+}
+
+.col1, .col2, .col3{
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+}
+
+.col3{
+	margin-right: 0%;
+}
+.columns p{
+	padding: 1em;
+	margin: 1%;
+}
+
+#nav, #footer {
+	background-color: #efefef;
+	padding: 0.5em 0;
+}
+
+#feature, .col_content, img{
+	height:23em;
+	margin-bottom: 1em;
+	background-color: #efefef;
+}
+
