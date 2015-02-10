@@ -1,8 +1,13 @@
 body{
+	color: #333;
 	width:90%;
 	margin:0 auto;
 	font-family:'Special Elite', cursive;
-	min-width: 700px;
+	min-width: 897px;
+	background: url("http://freeseamlesstextures.com/images/33-crinkled-paper-background-sml.jpg");
+	font-size: 20px;
+	background-color:#eeeeee; 
+
 }
 
 #top_logo{
@@ -23,6 +28,7 @@ input{
 	border: 3px inset;
 	float: left;
 	font-family:'Special Elite', cursive;
+
 }
 input[type="submit"] {
 	padding:5px 15px; 
@@ -31,7 +37,7 @@ input[type="submit"] {
 	border-radius: 5px;
 	width: 68px;
 	text-align: center;
-	background-color: black;
+	background-color: #444444;
 	color: white;
 	cursor: pointer;
  }
@@ -42,13 +48,13 @@ input[type="submit"] {
 
 h1{
 	clear:both;
-	font-size: 3em;
-	padding-top: 12%;
+	font-size: 75px;
+	padding-top: 8%;
 }
 
 #header p{
 	margin: 5%;
-	font-size: 1.5em;
+	font-size: 40px;
 }
 
 #content{
@@ -69,19 +75,23 @@ h1{
 #nav a{
 	margin:1.5em;
 	text-decoration: none;
-	color: black;
+	color: #444444;
+	font-weight: bold;
 }
-#nav a:hover{
+/*#nav a:hover{
 	color:blue;
-}
+}*/
 
 li{
 	display:inline;
-	padding: 0.5em;
+	padding: 1.5em;
+
 }
 
 #feature{
 	min-width: 550px;
+	background-color: #444444;
+	color: #aacccc;
 }
 
 #feature img{
@@ -90,8 +100,9 @@ li{
 
 #feature p{
 	float:left;
-	font-size: 3em;/*
-	padding-left: 1%;*/
+	font-size: 3em;
+	padding: 4% 0 0 4%;
+	line-height: 135%;
 }
 
 .columns{
@@ -110,16 +121,26 @@ li{
 .columns p{
 	padding: 1em;
 	margin: 1%;
+	line-height: 150%;
 }
 
+#nav {
+	background-color: #aacccc;
+}
 #nav, #footer {
-	background-color: #efefef;
 	padding: 0.5em 0;
+}
+
+#nav, #feature, .columns > div {
+	-webkit-box-shadow: 2px 2px 81px -16px rgba(0,0,0,0.5);
+	-moz-box-shadow: 2px 2px 81px -16px rgba(0,0,0,0.5);
+	box-shadow: 2px 2px 81px -16px rgba(0,0,0,0.5);
 }
 
 #feature, .col_content, img{
 	height:23em;
 	margin-bottom: 1em;
-	background-color: #efefef;
 }
-
+.col_content{
+	background-color: #aacccc;
+}
