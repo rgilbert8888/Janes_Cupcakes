@@ -4,43 +4,45 @@ body{
 	margin:0 auto;
 	font-family:'Special Elite', cursive;
 	min-width: 897px;
-	background: url("http://freeseamlesstextures.com/images/33-crinkled-paper-background-sml.jpg");
+	/* background: url("http://freeseamlesstextures.com/images/33-crinkled-paper-background-sml.jpg"); */
 	font-size: 20px;
 	background-color:#eeeeee; 
-
 }
 
 #top_logo{
 	display: inline;
 	float: left;
-}
-
-#header img {
-	height: 4em;
+	height: 75px;
 }
 
 input{
-	margin: 3.5% .5%;
+	margin: 2.5% .5%;
 	font-family: 'Special Elite', cursive;
-	font-size: 12px;
-	padding: 4px;
-	width: 140px;
-	border: 3px inset;
+	font-size: 14px;
+	padding: 6px 10px;
+	width: 200px;
+	border: 4px inset #99aaaa;
 	float: left;
-	font-family:'Special Elite', cursive;
-
+	font-family: 'Special Elite', cursive;
+	background-color: #eeeeee;
 }
+
 input[type="submit"] {
 	padding:5px 15px; 
 	background:#ccc; 
 	border:0 none;
-	border-radius: 5px;
-	width: 68px;
+	/* border-radius: 5px; */
+	width: 92px;
 	text-align: center;
 	background-color: #444444;
 	color: white;
 	cursor: pointer;
- }
+	height: 35px;
+}
+
+input[type="submit"]:hover {
+	background-color: #aacccc;
+}
 
 #header {
 	text-align: center;
@@ -78,14 +80,14 @@ h1{
 	color: #444444;
 	font-weight: bold;
 }
-/*#nav a:hover{
-	color:blue;
-}*/
+#nav a:hover{
+	color:#eeeeee;
+	text-decoration: underline;
+}
 
-li{
+#nav li{
 	display:inline;
 	padding: 1.5em;
-
 }
 
 #feature{
@@ -96,6 +98,8 @@ li{
 
 #feature img{
 	float: right;
+	margin-top:0px;
+	height:23em;
 }
 
 #feature p{
@@ -118,15 +122,16 @@ li{
 .col3{
 	margin-right: 0%;
 }
-.columns p{
+.columns p, .columns h3{
 	padding: 1em;
 	margin: 1%;
 	line-height: 150%;
 }
 
-#nav {
+#nav, .col_content {
 	background-color: #aacccc;
 }
+
 #nav, #footer {
 	padding: 0.5em 0;
 }
@@ -137,10 +142,16 @@ li{
 	box-shadow: 2px 2px 81px -16px rgba(0,0,0,0.5);
 }
 
-#feature, .col_content, img{
+#feature, .col_content{
 	height:23em;
-	margin-bottom: 1em;
+	margin-top: 1em;
 }
-.col_content{
-	background-color: #aacccc;
+
+#footer p{
+	text-align: right;
+	font-size: 14px;
+}
+#footer a{
+	text-decoration: none;
+	color:blue;
 }
